@@ -1,0 +1,32 @@
+.header-area{
+    height: 100px;
+    background-color:antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.nav-image{
+    background-color: white;
+    /* vertical-align: middle; */
+    margin-top:  26px; ;
+}
+.list-item{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.list{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.list:hover{
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
